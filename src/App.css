@@ -1,42 +1,48 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #e6d0af;
 }
+.container_postif_container{
+background-color: #3c342e;
+width: 90%;
+height: 100vh;
+box-sizing: border-box;
+margin-left: 5%;
+position: fixed;
+border-radius: 10px;
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.posfif_container{
+  width: 70%;
+  height: 90vh;
+  background-color: #e6d0af;
+  margin-left: 10%;
+  margin-top: 2.5%;
+  position: fixed;
+  border-radius: 10px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.postif{
+  background-color: #64cbe9;
+  box-shadow: 8px 10px 10px #1a82a1;
+  width: 50%;
+  height: 80vh;
+  margin-left: 25%;
+  margin-top: 3%;
+  display: flex;
+  flex-flow:column wrap;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.postif_text{
+font-style:italic;
+margin: 3%;
+font-size: 1.9em;
+text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.postif_person{
+font-style:italic;
+text-decoration: underline;
+font-size: 2em;
+text-align: center;
 }
